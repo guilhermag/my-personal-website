@@ -1,0 +1,37 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.footer a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: #000000;
+}
+
+.footer-left{
+    position: fixed;
+    left: 0;
+}
+
+.footer-contatos{
+    display: flex;
+}
+
+.footer-contatos a{
+    margin-right: 10px;
+}
+
+.footer-cidade{
+    position: fixed;
+    right: 0;
+}
+
+#creditos{
+    color: #030242;
+}

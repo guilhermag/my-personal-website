@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+body {
+    background: linear-gradient(45deg, #CCCCCC, #374e81);
+    background-size: 300% 300%;
+    color: #000000;
+    animation: colors 15s ease infinite;
+}
+
+@keyframes colors{
+    0%{
+        background-position: 0% 50%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    padding: 250px 150px;
+    justify-content: center;
+}
+
+.header-left{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-left h2{
+    margin: auto 0;
+    font-size: 35px;
+    font-style: oblique; 
+    color: #1f1f1f;
+}
+
+.header-left h2:hover{
+    font-size: 40px;
+}
+
+.header-mid{
+    width: 100%;
+}
+
+.header-mid img{
+    width: 350px;
+    height: 350px;
+    border: #1f1f1f solid 5px;
+    border-radius: 15rem;
+}
+
+.header-right{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-right a{
+    margin: auto 0;
+    padding: 20px 50px;
+    font-size: 50px;
+    text-align: center;
+    color: #1f1f1f;
+    background: #CCCCCC;
+    border:#1f1f1f solid 1px;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header-right a:hover{
+    background: #1f1f1f;
+    color: #CCCCCC;
+    border-color: #CCCCCC;
+    transition: all ease 0.8s;
+}
+
